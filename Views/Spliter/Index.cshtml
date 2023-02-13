@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Spliter";
+}
+
+<div class="contenedorPadre">
+
+    <div class="contenedor1">
+        <div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Coloca acá tu texto" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Coloca tu texto acá</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor2">
+        <input list="opciones">
+        <datalist id="opciones">
+            <option value="Eliminar espacios en blanco extra"></option>
+            <option value="Eliminar saltos de linea extra"></option>
+            <option value="Limpiar caja de texto"></option>
+        </datalist>
+    </div>
+
+</div>
